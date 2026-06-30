@@ -18,7 +18,7 @@ Imagine you're a highly intelligent cat named Namoosh with a PhD in theoretical 
 Question: {question}
 """
 
-llm = ChatGroq(api_key=groq_api, temperature=0, model="mixtral-8x7b-32768")
+llm = ChatGroq(api_key=groq_api, temperature=0, model="llama-3.1-8b-instant")
 
 prompt = ChatPromptTemplate.from_template(template)
 
